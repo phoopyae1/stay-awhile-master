@@ -1,0 +1,31 @@
+$user = new User();
+$user->email = "phonemyatkhine88@gmail.com";
+$user->password =  Hash::make("UIT122869np!");
+$user->first_name = "Phone Myat";
+$user->last_name = "Khine";
+$user->DOB = "2000-03-16";
+$user->phone_number = "09250074453";
+$user->city = "Yangon";
+$user->country ="Myanmar";
+$user->nrc_num = "12/TaMaNa(N)122869";
+$user->gender = "Male";
+$user->save();
+
+
+
+var opt1 = document.createElement('option');
+          opt1.appendChild( document.createTextNode('Hotel') );
+          opt1.value = 'Hotel';
+          sel.appendChild(opt1);
+
+          var opt2 = document.createElement('option');
+          opt2.appendChild( document.createTextNode('Bed and Breakfast') );
+          opt2.value = 'Bed and Breakfast';
+
+          var opt3 = document.createElement('option');
+          opt3.appendChild( document.createTextNode('Motel') );
+          opt3.value = 'Motel';
+
+          var opt4 = document.createElement('option');
+          opt4.appendChild( document.createTextNode('Suite') );
+          opt4.value = 'Suite';

@@ -1,0 +1,12 @@
+$user = new User();
+$user->email = "phonemyatkhine88@gmail.com";
+$user->password =  Hash::make("UIT122869np!");
+$user->first_name = "Phone Myat";
+$user->last_name = "Khine";
+$user->DOB = "2000-03-16";
+$user->phone_number = "09250074453";
+$user->city = "Yangon";
+$user->country ="Myanmar";
+$user->nrc_num = "12/TaMaNa(N)122869";
+$user->gender = "Male";
+$user->save();

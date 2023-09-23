@@ -1,0 +1,62 @@
+#letter{margin:0;}
+    	#capital{margin-top:-5px;}
+    	#number{margin-top:-25px;}
+    	#length{margin-top:-25px;}
+    	#pp{
+			background-color: #4CAF50;
+	  		border: none;
+	  		color: white;
+	  		padding: 15px 32px;
+	  		text-align: center;
+	  		text-decoration: none;
+			display: inline-block;
+	  		font-size:19px;
+	  		margin: 4px 20px;
+	  		cursor: pointer;
+	  	}
+   	#close{  background-color:gray;
+  border: none;
+  color: white;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size:19px;
+  margin: 4px 2px;
+  cursor: pointer;}
+/* The message box is shown when the user clicks on the password field */
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: -10px;
+  height:90px;
+}
+
+#message p {
+  font-size: 10px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color:gray;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" icon when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}
